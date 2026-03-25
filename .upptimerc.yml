@@ -1,36 +1,49 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# ══════════════════════════════════════════════════════════════
+#  .upptimerc.yml — Configurazione Upptime per LuxHaven360
+#  Posiziona questo file nella root del tuo repo Upptime
+# ══════════════════════════════════════════════════════════════
+
+owner: luxhaven360           
+repo:  luxhaven360-site                
+userAgent: LuxHaven360-Upptime
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: LuxHaven360
+    url: https://luxhaven360.com
 
-status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  - name: API LuxHaven360
+    url: https://api.luxhaven360.com/health
+    method: GET
+    expectedStatusCodes:
+      - 200
+      - 201
+
+  - name: Prenotazioni
+    url: https://booking.luxhaven360.com
+
+  - name: CDN Assets
+    url: https://cdn.luxhaven360.com
+
+notification:
+  email:
+    - luxhaven360@gmail.com
+
+statusWebsite:
+  cname: status.luxhaven360.com
+  logoUrl: https://luxhaven360.com/logo.png
+  name: LuxHaven360 Status
+  introTitle: "Stato dei sistemi LuxHaven360"
+  introMessage: "Monitoriamo i nostri servizi in tempo reale."
   navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Sito principale
+      href: https://luxhaven360.com
+    - title: Segnala un problema
+      href: https://reports.luxhaven360.com
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+issues:
+  label: "incident"
+
+delay: 0
+skipDeleteIssues: false
+assignees:
+  - luxhaven360
