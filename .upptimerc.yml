@@ -13,13 +13,6 @@ sites:
   - name: Sito Principale
     url: https://luxhaven360.com
 
-  - name: The Project
-    url: https://luxhaven360.com/the-project/
-
-  - name: Sistema Prenotazioni
-    url: https://luxhaven360.com/product-details/
-    expectedStatusCodes: [200]
-
   - name: Portale Reports
     url: https://reports.luxhaven360.com
 
