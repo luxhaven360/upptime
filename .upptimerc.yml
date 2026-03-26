@@ -15,14 +15,9 @@ sites:
 
   - name: The Project
     url: https://luxhaven360.com/the-project/
-    url: https://luxhaven360.com/the-project/community-hub.html
-    url: https://luxhaven360.com/the-project/community.html
-    url: https://luxhaven360.com/the-project/showcase.html
 
   - name: Sistema Prenotazioni
-    url: https://luxhaven360.com/product-details/booking.html
-    url: https://luxhaven360.com/product-details/cart.html
-    url: https://luxhaven360.com/product-details/pdp-products.html
+    url: https://luxhaven360.com/product-details/
     expectedStatusCodes: [200]
 
   - name: Portale Reports
