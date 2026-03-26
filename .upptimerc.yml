@@ -1,6 +1,6 @@
 # ══════════════════════════════════════════════════════════════
 #  .upptimerc.yml — LuxHaven360 v3
-#  Monitoraggio completo: Frontend · GAS Backend · Infrastruttura · Dipendenze
+#  Monitoraggio completo: Frontend · Servizi Backend · Infrastruttura · Dipendenze
 # ══════════════════════════════════════════════════════════════
 
 owner: luxhaven360
@@ -15,31 +15,33 @@ sites:
 
   - name: The Project
     url: https://luxhaven360.com/the-project/
+    url: https://luxhaven360.com/the-project/community-hub.html
+    url: https://luxhaven360.com/the-project/community.html
+    url: https://luxhaven360.com/the-project/showcase.html
 
-  - name: Community Hub
-    url: https://luxhaven360.com/the-project/community-hub
+  - name: Sistema Prenotazioni
+    url: https://luxhaven360.com/product-details/booking.html
+    url: https://luxhaven360.com/product-details/cart.html
+    url: https://luxhaven360.com/product-details/pdp-products.html
+    expectedStatusCodes: [200]
 
-  - name: Product Details
-    url: https://luxhaven360.com/product-details/
-    expectedStatusCodes: [200, 301, 302]
-
-  - name: Reports
+  - name: Portale Reports
     url: https://reports.luxhaven360.com
 
-  # ── GAS BACKEND ─────────────────────────────────────────────
-  - name: GAS Backend Principale
+  # ── SERVIZI BACKEND ──────────────────────────────────────────
+  - name: API Core
     url: https://script.google.com/macros/s/AKfycbwr79RkXIEocpuOKaM6uMJqE6VFs9wjlUPvrr__FvDbDDrD2ELB1NbfrWP3BCYpHj2u/exec?action=ping
     expectedStatusCodes: [200]
 
-  - name: GAS Community & Early Access
+  - name: Servizi Community
     url: https://script.google.com/macros/s/AKfycbwrDLCy9xO2mcX0ORieD5k9Ck7_6ysrnBfayWg_Gd_Pno4UrCa-2JuBTvkzBNvkfQ_xxQ/exec
     expectedStatusCodes: [200]
 
-  - name: GAS Abbonamenti
+  - name: Sistema Abbonamenti
     url: https://script.google.com/macros/s/AKfycbyLb-E_43gf3inu4cC062Cn-OpbXK1fM8QiflQ8k6F_uxRrorcTVhWVUOgOWTJrOFwa/exec?action=ping
     expectedStatusCodes: [200]
 
-  - name: GAS SiteGuard
+  - name: Protezione Accessi
     url: https://script.google.com/macros/s/AKfycbyLT41A8PPuQwyjCHkFA6anJhp-ywVJhy7TlMpxydaw3osPuplcsfafiNANA3s1hzk7/exec?action=health
     expectedStatusCodes: [200]
 
@@ -53,20 +55,20 @@ sites:
     expectedStatusCodes: [200]
 
   # ── DATABASE & REALTIME ─────────────────────────────────────
-  - name: Supabase
+  - name: Database
     url: https://tilxhlrwhqvmpxugvslw.supabase.co
     expectedStatusCodes: [200, 401]
 
   # ── DIPENDENZE CRITICHE ─────────────────────────────────────
-  - name: Frankfurter Cambio Valuta
+  - name: API Cambio Valuta
     url: https://api.frankfurter.app/latest
     expectedStatusCodes: [200]
 
-  - name: Stripe Checkout
+  - name: Pagamenti Stripe
     url: https://checkout.stripe.com
     expectedStatusCodes: [200, 301, 302]
 
-  - name: ipapi.co Geolocalizzazione
+  - name: Geolocalizzazione
     url: https://ipapi.co/json/
     expectedStatusCodes: [200]
 
