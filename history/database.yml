@@ -1,7 +1,7 @@
-url: https://tilxhlrwhqvmpxugvslw.supabase.co/auth/v1/health
+url: https://tilxhlrwhqvmpxugvslw.supabase.co/rest/v1/
 status: down
 code: 401
-responseTime: 211
-lastUpdated: 2026-03-27T14:19:11.557Z
+responseTime: 213
+lastUpdated: 2026-03-27T14:54:52.454Z
 startTime: 2026-03-26T17:39:14.503Z
 generator: Upptime <https://github.com/upptime/upptime>
