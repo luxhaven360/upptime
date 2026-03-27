@@ -29,8 +29,8 @@ sites:
     url: https://script.google.com/macros/s/AKfycbyLb-E_43gf3inu4cC062Cn-OpbXK1fM8QiflQ8k6F_uxRrorcTVhWVUOgOWTJrOFwa/exec?action=ping
     expectedStatusCodes: [200]
 
-  - name: Protezione Accessi
-    url: https://script.google.com/macros/s/AKfycbyLT41A8PPuQwyjCHkFA6anJhp-ywVJhy7TlMpxydaw3osPuplcsfafiNANA3s1hzk7/exec?action=health
+  - name: Access Sentinel
+    url: https://script.google.com/macros/s/AKfycbyLT41A8PPuQwyjCHkFA6anJhp-ywVJhu7TlMpxydaw3osPuplcsfafiNANA3s1hzk7/exec?action=health
     expectedStatusCodes: [200]
 
   # ── INFRASTRUTTURA ──────────────────────────────────────────
