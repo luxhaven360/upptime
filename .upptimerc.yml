@@ -30,7 +30,7 @@ sites:
     expectedStatusCodes: [200]
 
   - name: Protezione Accessi
-    url: https://script.google.com/macros/s/AKfycbyLT41A8PPuQwyjCHkFA6anJhp-ywVJhy7TlMpxydaw3osPuplcsfafiNANA3s1hzk7/exec?action=health
+    url: https://script.google.com/macros/s/AKfycbyLT41A8PPuQwyjCHkFA6anJhp-ywVJhu7TlMpxydaw3osPuplcsfafiNANA3s1hzk7/exec?action=health
     expectedStatusCodes: [200]
 
   # ── INFRASTRUTTURA ──────────────────────────────────────────
@@ -45,7 +45,8 @@ sites:
   # ── DATABASE & REALTIME ─────────────────────────────────────
   - name: Database
     url: https://tilxhlrwhqvmpxugvslw.supabase.co/rest/v1/
-    expectedStatusCodes: [200]
+    # 401 = risposta normale senza apikey (autenticazione richiesta = servizio attivo)
+    expectedStatusCodes: [200, 401]
 
   # ── DIPENDENZE CRITICHE ─────────────────────────────────────
   - name: API Cambio Valuta
@@ -75,8 +76,9 @@ statusWebsite:
     - title: Segnala un problema
       href: https://reports.luxhaven360.com
 
-issues:
-  label: "incident"
+# NOTA: label rimossa — Upptime usa "status" di default.
+# Le issue vengono create/chiuse automaticamente con label "status" + slug-servizio.
+# La status page legge proprio label "status" per mostrare gli incidenti.
 
 delay: 0
 skipDeleteIssues: false
