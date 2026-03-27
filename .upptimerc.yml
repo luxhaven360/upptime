@@ -44,7 +44,7 @@ sites:
 
   # ── DATABASE & REALTIME ─────────────────────────────────────
   - name: Database
-    url: https://tilxhlrwhqvmpxugvslw.supabase.co/auth/v1/health
+    url: https://tilxhlrwhqvmpxugvslw.supabase.co/rest/v1/
     expectedStatusCodes: [200]
 
   # ── DIPENDENZE CRITICHE ─────────────────────────────────────
