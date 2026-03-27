@@ -44,8 +44,8 @@ sites:
 
   # ── DATABASE & REALTIME ─────────────────────────────────────
   - name: Database
-    url: https://tilxhlrwhqvmpxugvslw.supabase.co
-    expectedStatusCodes: [200, 401]
+    url: https://tilxhlrwhqvmpxugvslw.supabase.co/auth/v1/health
+    expectedStatusCodes: [200]
 
   # ── DIPENDENZE CRITICHE ─────────────────────────────────────
   - name: API Cambio Valuta
