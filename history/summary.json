@@ -40,9 +40,9 @@
     "url": "https://script.google.com/macros/s/AKfycbwr79RkXIEocpuOKaM6uMJqE6VFs9wjlUPvrr__FvDbDDrD2ELB1NbfrWP3BCYpHj2u/exec?action=ping",
     "icon": "https://icons.duckduckgo.com/ip3/script.google.com.ico",
     "slug": "api-core",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -51,7 +51,9 @@
     "timeWeek": 2482,
     "timeMonth": 2482,
     "timeYear": 2482,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-01": 0
+    }
   },
   {
     "name": "Servizi Community",
