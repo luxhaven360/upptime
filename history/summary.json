@@ -40,19 +40,19 @@
     "url": "https://script.google.com/macros/s/AKfycbwr79RkXIEocpuOKaM6uMJqE6VFs9wjlUPvrr__FvDbDDrD2ELB1NbfrWP3BCYpHj2u/exec?action=ping",
     "icon": "https://icons.duckduckgo.com/ip3/script.google.com.ico",
     "slug": "api-core",
-    "status": "down",
-    "uptime": "99.33%",
-    "uptimeDay": "95.83%",
-    "uptimeWeek": "99.33%",
-    "uptimeMonth": "99.33%",
-    "uptimeYear": "99.33%",
-    "time": 2808,
-    "timeDay": 4684,
-    "timeWeek": 2808,
-    "timeMonth": 2808,
-    "timeYear": 2808,
+    "status": "up",
+    "uptime": "98.96%",
+    "uptimeDay": "93.49%",
+    "uptimeWeek": "98.96%",
+    "uptimeMonth": "98.96%",
+    "uptimeYear": "98.96%",
+    "time": 2937,
+    "timeDay": 4746,
+    "timeWeek": 2937,
+    "timeMonth": 2937,
+    "timeYear": 2937,
     "dailyMinutesDown": {
-      "2026-04-01": 60
+      "2026-04-01": 94
     }
   },
   {
