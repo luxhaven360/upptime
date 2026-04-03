@@ -168,19 +168,19 @@
     "url": "https://api.frankfurter.app/latest",
     "icon": "https://icons.duckduckgo.com/ip3/api.frankfurter.app.ico",
     "slug": "api-cambio-valuta",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 1367,
-    "timeDay": 67,
-    "timeWeek": 240,
-    "timeMonth": 1367,
-    "timeYear": 1367,
+    "status": "up",
+    "uptime": "99.57%",
+    "uptimeDay": "96.67%",
+    "uptimeWeek": "99.52%",
+    "uptimeMonth": "99.57%",
+    "uptimeYear": "99.57%",
+    "time": 1299,
+    "timeDay": 91,
+    "timeWeek": 233,
+    "timeMonth": 1299,
+    "timeYear": 1299,
     "dailyMinutesDown": {
-      "2026-04-03": 0
+      "2026-04-03": 48
     }
   },
   {
@@ -206,17 +206,19 @@
     "url": "https://ipapi.co/json/",
     "icon": "https://icons.duckduckgo.com/ip3/ipapi.co.ico",
     "slug": "geolocalizzazione",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 167,
-    "timeDay": 163,
-    "timeWeek": 168,
-    "timeMonth": 167,
-    "timeYear": 167,
-    "dailyMinutesDown": {}
+    "time": 159,
+    "timeDay": 104,
+    "timeWeek": 159,
+    "timeMonth": 159,
+    "timeYear": 159,
+    "dailyMinutesDown": {
+      "2026-04-03": 0
+    }
   }
 ]
