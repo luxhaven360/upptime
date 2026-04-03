@@ -206,19 +206,19 @@
     "url": "https://ipapi.co/json/",
     "icon": "https://icons.duckduckgo.com/ip3/ipapi.co.ico",
     "slug": "geolocalizzazione",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 159,
-    "timeDay": 104,
+    "status": "up",
+    "uptime": "99.61%",
+    "uptimeDay": "96.99%",
+    "uptimeWeek": "99.57%",
+    "uptimeMonth": "99.61%",
+    "uptimeYear": "99.61%",
+    "time": 160,
+    "timeDay": 125,
     "timeWeek": 159,
-    "timeMonth": 159,
-    "timeYear": 159,
+    "timeMonth": 160,
+    "timeYear": 160,
     "dailyMinutesDown": {
-      "2026-04-03": 0
+      "2026-04-03": 43
     }
   }
 ]
