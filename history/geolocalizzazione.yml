@@ -1,7 +1,7 @@
 url: https://ipapi.co/json/
-status: down
-code: 429
-responseTime: 149
-lastUpdated: 2026-05-06T13:09:16.191Z
+status: up
+code: 200
+responseTime: 200
+lastUpdated: 2026-05-06T15:34:00.959Z
 startTime: 2026-03-26T17:39:37.309Z
 generator: Upptime <https://github.com/upptime/upptime>
